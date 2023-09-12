@@ -9,8 +9,8 @@ const nextConfig = {
         port: '',
         pathname: '/api/character/avatar/**',
       },
-    ]
-  }
+    ],
+  },
 }
 
 module.exports = nextConfig

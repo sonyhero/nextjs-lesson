@@ -1,12 +1,12 @@
-import Link from "next/link";
-import styled from "styled-components";
+import Link from 'next/link'
+import styled from 'styled-components'
 
 type PropsType = {
-  title: string;
-};
+  title: string
+}
 
 export const LinkBlock = (props: PropsType) => {
-  const { title } = props;
+  const { title } = props
 
   return (
     <LinkWrapper>
@@ -14,8 +14,8 @@ export const LinkBlock = (props: PropsType) => {
         <h2>{title} →</h2>
       </Link>
     </LinkWrapper>
-  );
-};
+  )
+}
 
 const LinkWrapper = styled.div`
   padding: 20px;
@@ -36,4 +36,4 @@ const LinkWrapper = styled.div`
       font-size: 24px;
     }
   }
-`;
+`
